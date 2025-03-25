@@ -1,4 +1,13 @@
 /windows
 /linux
 /macos
+/windows/
+/linux/
+/macos/
+windows/
+linux/
+macos/
+windows
+linux
+macos
 errors.log
