@@ -35,8 +35,7 @@ class _MyFormState extends State<MyForm> {
       _formKey.currentState!.save();
       setState(() {
         final area = _width! * _height!;
-        _result =
-            'S = ${_width!.toInt()} * ${_height!.toInt()} = ${area.toInt()} (мм²)';
+        _result = 'S = $_width * $_height = $area (мм²)';
       });
 
       ScaffoldMessenger.of(context).showSnackBar(
